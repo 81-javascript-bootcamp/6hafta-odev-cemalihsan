@@ -25,3 +25,32 @@
 .action-buttons .btn + .btn {
     margin-left: 15px;
 }
+
+
+.delete-btn{
+    background-color: red;
+    color: white;
+    padding: 12px 12px;
+    font-size: 12px;
+    border-radius: 50%;
+}
+
+tr.active {
+    background: #506350;
+    color: #fff;
+}
+
+tr.completed {
+    text-decoration: line-through;
+    background: gray;
+}
+
+body.taskBreak {
+    background-color: rgb(173, 65, 65);
+    transition: all 0.5s ease;
+}
+
+body.taskActive {
+    background-color:rgb(68, 148, 68);
+    transition: all 0.5s ease;
+}
